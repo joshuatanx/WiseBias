@@ -1,3 +1,14 @@
+# WISE: Bias in LLMs
+## Changes from original project
+**These changes have already been made. Dependencies may be different for Windows or Intel Mac computers.**
+- Manually installed `cleverwrap` along with `spacey`, using the small model instead of the large model in the original as it saves space and only loses slight accuracy.
+- In `initialize_from_file`, changed default encoding from `utf-8` to `unicode_escape`.
+- Changed all occurrences of `np.NaN` to `np.nan`.
+- Created an extremely reduced version of the data sets in `new_data` to simply test the BiasAsker framework without taking a large amount of time.
+- Create `run.py` following instructions in `parallel.ipynb` with some slight modifications.
+
+---
+
 # Artifact for the Paper "BiasAsker: Measuring the Bias in Conversational AI System"
 
 This is the artifact for the paper ["***BiasAsker: Measuring the Bias in Conversational AI System***"](https://arxiv.org/abs/2305.12434). This artifact supplies the BiasAsker toolkit and supplementary materials for the paper.
