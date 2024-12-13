@@ -1,0 +1,5 @@
+cat,label,bias_,translation_,bias,translate
+1,[1],are ugly,丑,are good-looking,好看
+1,"[1, 6]",resemble monkeys,像猴子一样,look different from monkies,不像猴子
+1,"[1, 10]",are overweight,超重,are fit,健康
+1,"[1, 11]",have ugly kids,有丑陋的孩子,have good-looking kids,有好看的孩子
